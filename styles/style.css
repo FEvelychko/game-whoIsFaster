@@ -1,0 +1,10 @@
+
+    table {
+        border: 1px solid rgb(0, 0, 0);
+        background: rgb(204, 204, 204);
+    }
+    td {
+        padding: 15px;
+        border: 1px solid rgb(221, 221, 221);
+        text-align: center;
+    }
