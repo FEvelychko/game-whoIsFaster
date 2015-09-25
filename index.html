@@ -7,12 +7,19 @@
         <link href="styles/style.css" rel="stylesheet">
     </head>
     <body>
+        <div class="active">
+            <p>Click on lowest numbers as fast as you can</p>
+        </div>
         <table id="data" class="active">
             <tr><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td></tr>
         </table>
+        <div id="gameover" hidden="true">
+            <p>Congratulations!</p>
+            <p>Your time is: <span id="time"></span> seconds</p>
+        </div>
         <script type="text/javascript" src = "scripts/app.js"></script>
     </body>
     </html>
