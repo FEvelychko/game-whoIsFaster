@@ -6,7 +6,7 @@
         <title>who is faster?</title>
         <link href="styles/style.css" rel="stylesheet">
     </head>
-    <body>
+    <body onload="prepareGame();">
         <div class="active">
             <p>Click on lowest numbers as fast as you can</p>
         </div>
@@ -19,7 +19,9 @@
         <div id="gameover" hidden="true">
             <p>Congratulations!</p>
             <p>Your time is: <span id="time"></span> seconds</p>
+            <!--<button id="restart" onclick="prepareGame();">Restart</button>-->
         </div>
         <script type="text/javascript" src = "scripts/app.js"></script>
+        <!--<script type="text/javascript" src = "scripts/test.js"></script>-->
     </body>
     </html>
