@@ -2,29 +2,7 @@
  * Created by Maksym on 25.09.2015.
  */
 
-
-    function prepareGame(){
-
-        var cells = document.getElementsByTagName('td');
-        for(var i = 0; i < cells.length; i++){
-            cells[i].innerHTML = Math.floor((Math.random() * 100) + 1);
-            cells[i].onclick = hideCell;
-        }
-    }
-
-    function hideCell(){
-        debugger;
-        var current = parseInt(this.innerHTML);
-        cells = document.getElementsByTagName('td');
-        for(var j = 0; j < cells.length; j++){
-            if(cells[j].innerHTML == current){
-                cells[j].hidden = 'hidden';
-            }
-        }
-    }
-
-
-    /*var startTime;
+    var startTime;
     var cellsLeft;
     function changeActiveHiddenState(hiddenVal) {
         var active = document.getElementsByClassName('active');
@@ -45,7 +23,7 @@
         startTime = Date.now();
     }
     function handleClick() {
-        debugger;
+        //debugger;
         var current = parseInt(this.innerHTML);
         var incorrect = false;
         var cells = document.getElementsByTagName('td');
@@ -70,4 +48,4 @@
         changeActiveHiddenState('hidden');
         document.getElementById('time').innerHTML = (Date.now() - startTime) / 1000;
         document.getElementById('gameover').hidden = '';
-    }*/
+    }
