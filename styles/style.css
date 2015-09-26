@@ -1,10 +1,36 @@
 
     table {
         border: 1px solid rgb(0, 0, 0);
-        background: rgb(204, 204, 204);
+        background-color: mediumseagreen;
     }
     td {
-        padding: 15px;
+        padding: 40px;
         border: 1px solid rgb(221, 221, 221);
         text-align: center;
+        cursor: pointer;
+    }
+
+    .table{
+        margin: 100px auto;
+    }
+
+    .text{
+        text-align: center;
+        font-family: Lato;
+        font-weight: 300;
+        color: mediumseagreen;
+        font-size: 23px;
+    }
+    .btn{
+        display: block;
+        margin: 0 auto;
+        height: 40px;
+        width: 160px;
+        background-color: mediumseagreen;
+        border: none;
+        color: floralwhite;
+        cursor: pointer;
+    }
+    .red{
+        color: red;
     }

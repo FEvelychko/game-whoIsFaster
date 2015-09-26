@@ -8,18 +8,18 @@
     </head>
     <body onload="prepareGame();">
         <div class="active">
-            <p>Click on lowest numbers as fast as you can</p>
+            <p class = "text">Click on lowest numbers as fast as you can</p>
         </div>
-        <table id="data" class="active">
+        <table id="data" class="active table">
             <tr><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td></tr>
             <tr><td></td><td></td><td></td><td></td></tr>
         </table>
         <div id="gameover" hidden="true">
-            <p>Congratulations!</p>
-            <p>Your time is: <span id="time"></span> seconds</p>
-            <button id="restart" onclick="prepareGame();">Restart</button>
+            <p class = "text red">Congratulations!</p>
+            <p class = "text">Your time is: <span id="time"></span> seconds</p>
+            <button id="restart" class = "btn" onclick="prepareGame();">Restart</button>
         </div>
         <script type="text/javascript" src = "scripts/app.js"></script>
     </body>

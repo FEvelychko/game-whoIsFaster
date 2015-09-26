@@ -5,7 +5,7 @@
     var startTime, cellsLeft;
 
     function changeActiveHiddenState(hiddenVal){
-
+    //debugger;
         var active = document.getElementsByClassName('active');
         for (var i = 0; i < active.length; i++) {
             active[i].hidden = hiddenVal;
@@ -29,7 +29,7 @@
     }
 
     function handleClick(){
-
+    //debugger;
         var incorrect = false;
         var current = parseInt(this.innerHTML);
         var cells = document.getElementsByTagName('td');
